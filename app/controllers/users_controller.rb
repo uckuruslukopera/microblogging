@@ -6,6 +6,7 @@ class UsersController < ApplicationController
   def create
   	@user = User.new(user_params)
   	if @user.save
+      log_in(@user)
       flash[:success] = "Welcome dear!"
   		# redirect_to @user
       redirect_to user_url(@user)
@@ -16,6 +17,16 @@ class UsersController < ApplicationController
 
   def show
   	@user = User.find(params[:id])  	    
+  end
+
+  def index
+    @users = User.all
+    # respond_to do |format|
+    #   format.json {render :json => @users}      
+    # end
+    respond_to :json
+    respond_with (@users)
+
   end
 
 
