@@ -38,4 +38,12 @@ class UsersIndexTest < ActionDispatch::IntegrationTest
       delete user_path(@non_admin)
     end
   end
+
+  test "index only activated users" do
+    log_in_as(@non_admin)
+    get users_path
+    User.paginate(page:1).each do |user|
+      assert user.activated?
+    end
+  end
 end
