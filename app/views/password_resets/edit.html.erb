@@ -6,7 +6,7 @@
 	<div class="col-md-6 col-md-offset-3">
 		<%= form_for(@user, url:password_reset_path(params[:id])) do |f| %>
 
-			<%= render "layouts/error_messages" %>
+			<%= render "layouts/error_messages", object: f.object %>
 
 			<%= hidden_field_tag :email, @user.email %>
 
