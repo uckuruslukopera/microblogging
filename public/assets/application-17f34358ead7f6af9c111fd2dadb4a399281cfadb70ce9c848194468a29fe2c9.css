@@ -9014,6 +9014,61 @@ input {
   padding: 10px 0;
   border-bottom: 1px solid #eeeeee;
 }
+
+/* microposts */
+/* line 205, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
+.microposts {
+  list-style: none;
+  padding: 0;
+}
+/* line 208, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
+.microposts li {
+  padding: 10px 0;
+  border-top: 1px solid #e8e8e8;
+}
+/* line 212, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
+.microposts .user {
+  margin-top: 5em;
+  margin-left: 10px;
+  padding-top: 0;
+}
+/* line 217, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
+.microposts .content {
+  display: block;
+  margin-left: 60px;
+}
+/* line 220, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
+.microposts .content img {
+  display: block;
+  padding: 5px 0;
+}
+/* line 225, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
+.microposts .timestamp {
+  color: #777777;
+  display: block;
+  margin-left: 60px;
+}
+/* line 230, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
+.microposts .gravatar {
+  float: left;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+/* line 238, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
+aside textarea {
+  height: 100px;
+  margin-bottom: 5px;
+}
+
+/* line 244, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
+span.picture {
+  margin-top: 10px;
+}
+/* line 246, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
+span.picture input {
+  border: 0;
+}
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
