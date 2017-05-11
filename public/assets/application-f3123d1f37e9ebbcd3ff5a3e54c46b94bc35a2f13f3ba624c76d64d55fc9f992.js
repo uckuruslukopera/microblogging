@@ -14563,6 +14563,9 @@ var o,i,s,a,u;return i=null!=n?n:{},a=i.restorationIdentifier,s=i.restorationDat
 // Place all the behaviors and hooks related to the matching controller here.
 // All this logic will automatically be available in application.js.
 ;
+// Place all the behaviors and hooks related to the matching controller here.
+// All this logic will automatically be available in application.js.
+;
 // This is a manifest file that'll be compiled into application.js, which will include all the files
 // listed below.
 //

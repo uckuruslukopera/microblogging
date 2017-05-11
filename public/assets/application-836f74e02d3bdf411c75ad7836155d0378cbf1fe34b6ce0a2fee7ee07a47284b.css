@@ -8942,8 +8942,55 @@ aside section h1 {
   margin-top: 15px;
 }
 
+/* line 141, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
+.stats {
+  overflow: auto;
+  margin-top: 0;
+  padding: 0;
+}
+/* line 145, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
+.stats a {
+  float: left;
+  padding: 0 10px;
+  border-left: 1px solid #eeeeee;
+  color: gray;
+}
+/* line 150, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
+.stats a:first-child {
+  padding-left: 0;
+  border: 0;
+}
+/* line 154, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
+.stats a:hover {
+  text-decoration: none;
+  color: blue;
+}
+/* line 159, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
+.stats strong {
+  display: block;
+}
+
+/* line 164, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
+.user_avatars {
+  overflow: auto;
+  margin-top: 10px;
+}
+/* line 167, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
+.user_avatars .gravatar {
+  margin: 1px 1px;
+}
+/* line 170, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
+.user_avatars a {
+  padding: 0;
+}
+
+/* line 175, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
+.users.follow {
+  padding: 0;
+}
+
 /* forms */
-/* line 142, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
+/* line 180, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
 input, textarea, select, .uneditable-input {
   border: 1px solid #bbb;
   width: 100%;
@@ -8953,45 +9000,45 @@ input, textarea, select, .uneditable-input {
   box_sizing: border-box;
 }
 
-/* line 149, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
+/* line 187, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
 input {
   height: auto !important;
 }
 
-/* line 153, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
+/* line 191, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
 #error_explanation {
   color: red;
 }
-/* line 155, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
+/* line 193, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
 #error_explanation ul {
   color: red;
   margin: 0 0 30px 0;
 }
 
-/* line 163, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
+/* line 201, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
 .field_with_errors .form-control {
   color: #a94442;
 }
 
-/* line 168, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
+/* line 206, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
 .checkbox {
   margin-top: -10px;
   margin-bottom: 10px;
 }
-/* line 171, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
+/* line 209, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
 .checkbox span {
   margin-left: 20px;
   font-weight: normal;
 }
 
-/* line 177, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
+/* line 215, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
 #session_remember_me {
   width: auto;
   margin-left: 0;
 }
 
 /* misc */
-/* line 185, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
+/* line 223, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
 .debug_dump {
   clear: both;
   float: left;
@@ -9003,12 +9050,12 @@ input {
 }
 
 /* users index*/
-/* line 194, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
+/* line 232, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
 .users {
   list-style: none;
   margin: 0;
 }
-/* line 197, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
+/* line 235, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
 .users li {
   overflow: auto;
   padding: 10px 0;
@@ -9016,56 +9063,56 @@ input {
 }
 
 /* microposts */
-/* line 205, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
+/* line 243, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
 .microposts {
   list-style: none;
   padding: 0;
 }
-/* line 208, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
+/* line 246, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
 .microposts li {
   padding: 10px 0;
   border-top: 1px solid #e8e8e8;
 }
-/* line 212, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
+/* line 250, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
 .microposts .user {
   margin-top: 5em;
   margin-left: 10px;
   padding-top: 0;
 }
-/* line 217, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
+/* line 255, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
 .microposts .content {
   display: block;
   margin-left: 60px;
 }
-/* line 220, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
+/* line 258, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
 .microposts .content img {
   display: block;
   padding: 5px 0;
 }
-/* line 225, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
+/* line 263, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
 .microposts .timestamp {
   color: #777777;
   display: block;
   margin-left: 60px;
 }
-/* line 230, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
+/* line 268, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
 .microposts .gravatar {
   float: left;
   margin-right: 10px;
   margin-top: 5px;
 }
 
-/* line 238, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
+/* line 276, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
 aside textarea {
   height: 100px;
   margin-bottom: 5px;
 }
 
-/* line 244, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
+/* line 282, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
 span.picture {
   margin-top: 10px;
 }
-/* line 246, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
+/* line 284, C:/Sites/hartl/microblogging/app/assets/stylesheets/custom.scss */
 span.picture input {
   border: 0;
 }
